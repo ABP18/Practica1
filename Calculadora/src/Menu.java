@@ -19,9 +19,10 @@ public class Menu {
                 break;
             }
 
-            System.out.println("Cual el primer numero:");
+
+            System.out.println("Ingrese el primer numero: ");
             num1 = sc.nextInt();
-            System.out.println("Ingrese el segundo numero:");
+            System.out.println("Ingrese el segundo numero: ");
             num2 = sc.nextInt();
 
             double resultado = 0;
@@ -32,12 +33,18 @@ public class Menu {
             	resultado = num1 - num2;
             } else if (accion == 3) {
             	//aqui la multiplicacion
+            	resultado = num1 * num2;
             } else if (accion == 4) {
-            	//aqui la division
+                if (num2 != 0) {
+                    resultado = (double) num1 / num2;
+                } else {
+                    System.out.println("Error: No se puede dividir por cero.");
+                    continue;
+                }
             } else {
-                System.out.println("Opcion no valida. Por favor, elija una operacion valida.");
+                System.out.println("Opción no válida. Por favor, elija una operación válida.");
                 continue;
-            }
+            }	
 
             System.out.println("El resultado es: " + resultado);
             System.out.println("");
