@@ -29,7 +29,7 @@ public class Menu {
             if (accion == 1) {
             	resultado = num1 + num2;
             } else if (accion == 2) {
-            	resultado = num1 - num2;
+            	
             } else if (accion == 3) {
             	//aqui la multiplicacion
             } else if (accion == 4) {
