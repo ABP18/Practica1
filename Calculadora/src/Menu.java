@@ -19,9 +19,9 @@ public class Menu {
                 break;
             }
 
-            System.out.println("Ingrese el primer numero:");
+            System.out.println("Ingrese el primer numero: ");
             num1 = sc.nextInt();
-            System.out.println("Ingrese el segundo numero:");
+            System.out.println("Ingrese el segundo numero: ");
             num2 = sc.nextInt();
 
             double resultado = 0;
