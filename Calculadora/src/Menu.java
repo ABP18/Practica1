@@ -32,6 +32,7 @@ public class Menu {
             	resultado = num1 - num2;
             } else if (accion == 3) {
             	//aqui la multiplicacion
+            	resultado = num1 * num2;
             } else if (accion == 4) {
             	//aqui la division
             } else {
