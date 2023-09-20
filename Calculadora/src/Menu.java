@@ -40,6 +40,7 @@ public class Menu {
             }
 
             System.out.println("El resultado es: " + resultado);
+            System.out.println("");
         }
 
         sc.close();
