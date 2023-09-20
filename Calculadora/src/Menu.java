@@ -19,6 +19,7 @@ public class Menu {
                 break;
             }
 
+
             System.out.println("Ingrese el primer numero: ");
             num1 = sc.nextInt();
             System.out.println("Ingrese el segundo numero: ");
@@ -46,6 +47,7 @@ public class Menu {
             }	
 
             System.out.println("El resultado es: " + resultado);
+            System.out.println("");
         }
 
         sc.close();
