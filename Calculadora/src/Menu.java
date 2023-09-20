@@ -34,11 +34,16 @@ public class Menu {
             	//aqui la multiplicacion
             	resultado = num1 * num2;
             } else if (accion == 4) {
-            	//aqui la division
+                if (num2 != 0) {
+                    resultado = (double) num1 / num2;
+                } else {
+                    System.out.println("Error: No se puede dividir por cero.");
+                    continue;
+                }
             } else {
-                System.out.println("Opcion no valida. Por favor, elija una operacion valida.");
+                System.out.println("Opción no válida. Por favor, elija una operación válida.");
                 continue;
-            }
+            }	
 
             System.out.println("El resultado es: " + resultado);
         }
