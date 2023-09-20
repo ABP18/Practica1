@@ -27,9 +27,9 @@ public class Menu {
             double resultado = 0;
 
             if (accion == 1) {
-            	//aqui la suma
+            	resultado = num1 + num2;
             } else if (accion == 2) {
-            	//aqui la resta
+            	resultado = num1 - num2;
             } else if (accion == 3) {
             	//aqui la multiplicacion
             } else if (accion == 4) {
