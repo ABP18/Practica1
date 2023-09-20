@@ -11,7 +11,7 @@ public class Menu {
         System.out.println("__________________");
         while (true) {
             System.out.println("Que quieres hacer?");
-            System.out.println("1-Sumar 2-Dividir 3-Multiplicar 4-Dividir 5-Salir");
+            System.out.println("1-Sumar 2-Restar 3-Multiplicar 4-Dividir 5-Salir");
             accion = sc.nextInt();
 
             if (accion == 5) {
